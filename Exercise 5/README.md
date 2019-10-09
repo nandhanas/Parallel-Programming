@@ -6,8 +6,8 @@
   * mpicc -o main main.c
   * mpirun -np 4 main
 
-  * vector_sum.c : Ring Communication using Matrix of Size N
+* vector_sum.c : Ring Communication using Matrix of Size N
 
-    * module load openmpi
-    * mpicc -o vector_sum vector_sum.c
-    * mpirun -np 4 vector_sum N
+  * module load openmpi
+  * mpicc -o vector_sum vector_sum.c
+  * mpirun -np 4 vector_sum N
